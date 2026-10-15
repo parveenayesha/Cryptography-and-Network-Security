@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI-enabled course portfolio for U23CS704 Cryptography and Network Security.">
+  <title>AI-Enabled CNS Smart Course | U23CS704</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="brand"><span class="brand-mark">CNS</span><span><strong>Smart Course</strong><small>U23CS704 · B.E. CSE</small></span></div>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav" aria-label="Main navigation">
+      <a href="#overview">Overview</a><a href="#outcomes">Outcomes</a><a href="#syllabus">Syllabus</a><a href="#schedule">Schedule</a><a href="#learn">Learn</a><a href="#assessment">Assessment</a><a href="#policy">AI policy</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="eyebrow">AI-ENABLED FRAMEWORK FOR OUTCOME-BASED SMART COURSE DESIGN</p>
+        <h1>Cryptography &amp;<br><span>Network Security</span></h1>
+        <p class="lede">A practical learning space for cryptographic foundations, authentication, secure network protocols and responsible cybersecurity practice.</p>
+        <div class="hero-actions"><a class="button primary" href="#syllabus">Explore the syllabus</a><a class="button secondary" href="#cipher">Try the cipher lab</a></div>
+      </div>
+      <div class="hero-panel" aria-label="Course facts">
+        <div class="panel-heading">COURSE AT A GLANCE</div>
+        <div class="fact-grid"><div><small>Course code</small><strong>U23CS704</strong></div><div><small>Credits</small><strong>3</strong></div><div><small>CIE</small><strong>40 marks</strong></div><div><small>SEE</small><strong>60 marks</strong></div></div>
+        <p class="note">Core course · Prerequisites: Computer Networks and Information Security</p>
+      </div>
+    </section>
+
+    <section class="section" id="outcomes">
+      <div class="section-heading"><p class="eyebrow">OUTCOME-BASED LEARNING</p><h2>Course outcomes</h2><p>The five outcomes below preserve the intent of the supplied syllabus and express it as observable learning targets for teaching and assessment. Faculty approval is required before formal adoption.</p></div>
+      <div class="outcome-grid">
+        <article class="outcome"><span>CO1 · K2</span><h3>Recognise threat sources</h3><p>Identify and classify common information and network threat sources.</p></article>
+        <article class="outcome"><span>CO2 · K3/K5</span><h3>Select protections</h3><p>Select appropriate security services, mechanisms and algorithms for a given threat and context.</p></article>
+        <article class="outcome"><span>CO3 · K6</span><h3>Design a security solution</h3><p>Design an end-to-end security solution for a given application system.</p></article>
+        <article class="outcome"><span>CO4 · K3</span><h3>Apply security concepts</h3><p>Apply cryptographic and network security concepts to protect communication privacy and data.</p></article>
+        <article class="outcome"><span>CO5 · K4</span><h3>Analyse network threats</h3><p>Analyse threats across network, transport, wireless, e-mail and IP security contexts.</p></article>
+      </div>
+      <p class="callout">Bloom's key: K1 Remember · K2 Understand · K3 Apply · K4 Analyse · K5 Evaluate · K6 Create.</p>
+    </section>
+
+    <section class="section muted" id="syllabus">
+      <div class="section-heading"><p class="eyebrow">UNIT-WISE MAP</p><h2>Explore all five units</h2><p>The topic descriptions match the uploaded AICTE model curriculum extract. Expand each unit for the detailed topic list.</p></div>
+      <div class="unit-list">
+        <details open><summary><span>Unit I</span> Security Concepts and Classical Cryptography</summary><p>Introduction and need for security; security approaches and principles; security attacks, services and mechanisms; network security model; cryptography concepts; plaintext/ciphertext; substitution and transposition; encryption/decryption; symmetric and asymmetric key cryptography.</p><p class="tag-row"><span>CO1</span><span>CO2</span><span>CO5</span></p></details>
+        <details><summary><span>Unit II</span> Symmetric and Public-Key Ciphers</summary><p>Block-cipher principles; DES, AES, Blowfish, RC5, IDEA; block-cipher operation; stream ciphers and RC4; public-key cipher principles; RSA algorithm; Diffie–Hellman key exchange.</p><p class="tag-row"><span>CO2</span><span>CO4</span><span>CO5</span></p></details>
+        <details><summary><span>Unit III</span> Hashes, Message Authentication and Key Management</summary><p>Cryptographic hash functions; RSA algorithm as printed in the unit heading; message authentication; SHA-512; authentication requirements; HMAC and CMAC; digital signatures; symmetric/asymmetric key distribution; public-key distribution; Kerberos; X.509 authentication service.</p><p class="tag-row"><span>CO2</span><span>CO3</span><span>CO4</span></p></details>
+        <details><summary><span>Unit IV</span> Transport-Level and Wireless Network Security</summary><p>Web security considerations; SSL/TLS; HTTPS; Secure Shell (SSH); wireless network security; mobile-device security; IEEE 802.11 wireless LAN; IEEE 802.11i wireless LAN security.</p><p class="tag-row"><span>CO2</span><span>CO3</span><span>CO4</span><span>CO5</span></p></details>
+        <details><summary><span>Unit V</span> E-Mail Security and IP Security</summary><p>Pretty Good Privacy (PGP); S/MIME; IP security overview and architecture; Authentication Header (AH); Encapsulating Security Payload (ESP); combining security associations.</p><p class="tag-row"><span>CO1</span><span>CO2</span><span>CO3</span><span>CO4</span><span>CO5</span></p></details>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="section-heading"><p class="eyebrow">PROVISIONAL SEMESTER PLAN</p><h2>15-week learning calendar</h2><p>Planning assumption: 3 lecture hours per week. The uploaded syllabus does not prescribe unit-wise hours or semester dates, so the sequence is adjustable to the official academic calendar.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Week</th><th>Topics</th><th>Learning activity</th><th>Evidence / CO</th></tr></thead><tbody>
+        <tr><td>1</td><td>Need, principles, security approaches</td><td>Threat-mapping warm-up</td><td>Exit ticket · CO1</td></tr>
+        <tr><td>2</td><td>Attacks, services, mechanisms, security model</td><td>Threat-to-control matching</td><td>Quiz 1 · CO1/CO2</td></tr>
+        <tr><td>3</td><td>Classical ciphers; symmetric/asymmetric foundations</td><td>Caesar Cipher Lab</td><td>Mini task · CO2</td></tr>
+        <tr><td>4</td><td>Block-cipher principles, DES, AES</td><td>Algorithm comparison matrix</td><td>Assignment 1 · CO2</td></tr>
+        <tr><td>5</td><td>Blowfish, RC5, IDEA, block operation, stream ciphers</td><td>Mode-and-use-case discussion</td><td>Quiz 2 · CO2</td></tr>
+        <tr><td>6</td><td>RSA and Diffie–Hellman key exchange</td><td>Worked key-exchange example</td><td>Problem set · CO2/CO4</td></tr>
+        <tr><td>7</td><td>Hashing, SHA-512, message authentication</td><td>Integrity vs authentication case</td><td>Exit ticket · CO3/CO4</td></tr>
+        <tr><td>8</td><td>HMAC, CMAC, digital signatures</td><td>Design an authenticated message flow</td><td>Case submission · CO3</td></tr>
+        <tr><td>9</td><td>Key distribution, Kerberos, X.509</td><td>Authentication sequence diagram</td><td>Quiz 3 · CO3</td></tr>
+        <tr><td>10</td><td>Web security, TLS/SSL, HTTPS</td><td>Read a browser security indicator</td><td>Protocol worksheet · CO4</td></tr>
+        <tr><td>11</td><td>SSH, wireless/mobile security, 802.11/802.11i</td><td>Public Wi-Fi risk analysis</td><td>Case discussion · CO4/CO5</td></tr>
+        <tr><td>12</td><td>Revision for Units I–IV</td><td>Mid-semester formative assessment</td><td>Mock paper · CO1–CO4</td></tr>
+        <tr><td>13</td><td>PGP and S/MIME</td><td>Choose e-mail protection controls</td><td>Quiz 4 · CO3/CO4</td></tr>
+        <tr><td>14</td><td>IPsec architecture, AH, ESP, security associations</td><td>VPN/IPsec design case</td><td>Design brief · CO3/CO5</td></tr>
+        <tr><td>15</td><td>Integration, recap, reflection and assessment review</td><td>Secure-system pitch and peer review</td><td>Exit survey · all COs</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section class="section muted" id="learn">
+      <div class="section-heading"><p class="eyebrow">INTERACTIVE LEARNING RESOURCE</p><h2>Caesar cipher lab</h2><p>This small simulation demonstrates classical substitution. It is a learning activity only; Caesar cipher is not secure for real-world communication.</p></div>
+      <div class="lab-grid" id="cipher">
+        <div class="lab-card"><label for="plainText">Message</label><input id="plainText" value="HELLO WORLD" maxlength="180"><div class="control-row"><label for="shift">Shift key</label><input id="shift" type="number" min="0" max="25" value="3"></div><div class="control-row"><label for="mode">Operation</label><select id="mode"><option value="encrypt">Encrypt</option><option value="decrypt">Decrypt</option></select></div><button class="button primary" id="runCipher">Run cipher</button><div class="result"><small>OUTPUT</small><p id="cipherResult" aria-live="polite">KHOOR ZRUOG</p></div></div>
+        <div class="lab-card learning-card"><h3>What to notice</h3><ol><li>Letters shift within A–Z and wrap around at Z.</li><li>Spaces and punctuation remain unchanged.</li><li>The same key reverses the operation when decrypting.</li></ol><div class="warning">Never use a Caesar cipher to protect real passwords, personal data or institutional records.</div></div>
+      </div>
+      <div class="section-heading quiz-heading"><p class="eyebrow">CHECK YOUR UNDERSTANDING</p><h2>Quick quiz</h2></div>
+      <form class="quiz-card" id="quizForm">
+        <fieldset><legend>1. Which property is primarily provided by a cryptographic hash when correctly used?</legend><label><input type="radio" name="q1" value="a"> Confidentiality</label><label><input type="radio" name="q1" value="b"> Integrity checking / change detection</label><label><input type="radio" name="q1" value="c"> Availability</label></fieldset>
+        <fieldset><legend>2. In TLS/HTTPS, what does certificate validation principally help a client verify?</legend><label><input type="radio" name="q2" value="a"> Server identity and trust chain</label><label><input type="radio" name="q2" value="b"> That every website is harmless</label><label><input type="radio" name="q2" value="c"> That the server has no vulnerabilities</label></fieldset>
+        <fieldset><legend>3. Which IPsec component is designed to protect confidentiality as well as integrity when configured for those services?</legend><label><input type="radio" name="q3" value="a"> ESP</label><label><input type="radio" name="q3" value="b"> DNS</label><label><input type="radio" name="q3" value="c"> HTTP</label></fieldset>
+        <button class="button primary" type="submit">Check answers</button><p id="quizResult" class="quiz-result" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section" id="assessment">
+      <div class="section-heading"><p class="eyebrow">ASSESSMENT DESIGN</p><h2>Assessment plan</h2><p>The syllabus confirms the 40:60 CIE/SEE split. Internal components below are a proposed design and must be checked against institutional regulations.</p></div>
+      <div class="assessment-grid"><article><h3>Continuous Internal Evaluation</h3><div class="big-number">40</div><p>marks</p><ul><li>Mid-test(s): 20</li><li>Assignments / applied cases: 10</li><li>Quizzes / learning checks: 5</li><li>Reflection / participation evidence: 5</li></ul></article><article><h3>Semester End Examination</h3><div class="big-number">60</div><p>marks</p><ul><li>Coverage across all five units</li><li>Mix of definitions, applications, analysis and design</li><li>CO and Bloom level labels used in the moderation copy</li><li>Official pattern and duration to be verified</li></ul></article></div>
+      <p class="callout"><strong>Question-paper audit status:</strong> the supplied files include the syllabus and capstone format, but not an original CNS examination question paper. The formal seven-criteria Bloom's Quality and Rebalance Report is therefore pending the question paper. The portfolio's sample question set is a proposed design, not an audit of an institutional paper.</p>
+    </section>
+
+    <section class="section muted" id="policy">
+      <div class="section-heading"><p class="eyebrow">RESPONSIBLE AI</p><h2>Use AI as a learning partner, not a substitute</h2></div>
+      <div class="policy-grid"><article><h3>Allowed with disclosure</h3><p>Brainstorm study questions, explain a concept in simpler language, generate practice cases, or review grammar. Verify all cryptographic algorithms and protocol claims against course resources.</p></article><article><h3>Not allowed</h3><p>Submitting AI output as wholly original work, using AI to impersonate another learner, inventing references, sharing passwords or personal student data, or using tools to attack real systems without written authorization.</p></article><article><h3>Assessment that values reasoning</h3><p>Use viva questions, stepwise working, live cipher exercises, threat-model justification, unseen scenarios, oral reflection and version history. Ask students to disclose tools and prompts used.</p></article></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div><p class="eyebrow">COURSE CONTACT</p><h2>Contact and learning support</h2><p>Course Coordinator: <strong>[Faculty Name]</strong></p><p>Department: <strong>[Department / Institution]</strong></p><p>Email: <strong>[Institutional email]</strong></p><p>Office hours: <strong>[Day and time]</strong></p><p class="note">Replace placeholders before publishing. Do not publish personal phone numbers or student data.</p></div>
+      <div class="contact-box"><h3>Quick reference</h3><p>Textbook: William Stallings, <em>Cryptography and Network Security: Principles and Practice</em>, 6th edition, Pearson.</p><p>Reference: Atul Kahate, <em>Cryptography and Network Security</em>, 3rd edition, McGraw Hill.</p><p><a href="https://github.com/">GitHub</a> · <a href="https://docs.github.com/en/pages">GitHub Pages guide</a></p></div>
+    </section>
+  </main>
+  <footer><p>U23CS704 · Cryptography and Network Security · AI-enabled course portfolio</p><p>Draft for academic review · No student data is collected by this static site.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
